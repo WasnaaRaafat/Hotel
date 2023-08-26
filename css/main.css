@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.7em;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+.text-primary {
+  color: #f7c08a;
+}
+.lead {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  display: inline-block;
+  font-size: 18px;
+  padding: 13px 20px;
+  border: none;
+}
+.btn:hover {
+  color: #333;
+  background-color: #f7c08a;
+}
+
+.btn-light {
+  background: lightgray;
+  color: #333;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 20px;
+}
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+.bg-primary {
+  background: #f7c08a;
+  color: #333;
+}
+#navbar {
+  background-color: #333;
+  overflow: auto;
+}
+#navbar h1 {
+  color: #fff;
+  float: left;
+  padding-top: 20px;
+}
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 20px;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.active {
+  color: #f7c08a;
+  background-color: #444;
+}
+.showcase {
+  height: 600px;
+}
+.showcase .showcase-content {
+  text-align: center;
+  color: #fff;
+  padding-top: 200px;
+}
+.showcase h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#home-info {
+  height: 400px;
+}
+.home-img {
+  width: 50%;
+  float: left;
+  height: 400px;
+}
+.home-text {
+  text-align: center;
+  float: right;
+  width: 50%;
+  height: 100%;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+.home-text p {
+  padding-bottom: 30px;
+}
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+.box i {
+  padding-bottom: 20px;
+}
+
+.clr {
+  clear: both;
+}
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
+#about-info {
+  height: 300px;
+}
+.about-img {
+  float: right;
+  width: 50%;
+  max-height: 100%;
+  padding-top: 50px;
+}
+.about-img .about-photo {
+  width: 70%;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+.about-text {
+  width: 50%;
+  float: left;
+  min-height: 100%;
+  padding: 50px;
+}
